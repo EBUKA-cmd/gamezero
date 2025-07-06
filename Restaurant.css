@@ -1,0 +1,424 @@
+#logo{
+    height: 24px;
+}
+#drop-icon{
+    height: 25px;
+}
+#drop-icon2{
+    height: 15px;
+}
+#nav-link{
+    color: black;
+}
+#btn, 
+#btn2{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #c4b6b6;
+    color: #fff;
+    border: none;
+}
+#btn:first-child{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #3b3531;
+}
+#hero-text{
+    width: 55%;
+    margin-right: 120px;
+}
+#hero-text-input{
+    width: 100%;
+}
+#hero-text-input a{
+    width: 15%;
+    margin-left: 10px;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Roof Container */
+.roof {
+  background-color: #fff;
+  padding: 60px 40px;
+  margin: 60px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Header Text */
+.roof-1 h2 {
+  font-size: 38px;
+  color: #b1abab;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Text */
+.roof p {
+  font-size: 18px;
+  color: #c4b6b6;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+/* Button Styling */
+.btn {
+  padding: 12px 28px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f5a623;
+  color: #111;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(245, 166, 35, 0.3);
+}
+.roof {
+  background: url('shrimp-black-pasta-with-clams-seeds-top-view.jpg') no-repeat center center/cover;
+  padding: 80px 50px;
+  margin: 60px auto;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: #fff; /* Make text readable on dark image */
+  position: relative;
+}
+
+/* Add a dark overlay for readability */
+.roof::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Adjust opacity */
+  border-radius: 20px;
+  z-index: 1;
+}
+
+/* Content stays above overlay */
+.roof h2,
+.roof p,
+.roof .btn,
+.roof-1 {
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.roof-1 h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.roof p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+/* Button */
+.btn {
+  padding: 12px 28px;
+  background-color: #fff;
+  color: #111;
+  border: none;
+}
+.menu-section {
+  padding: 80px 40px;
+  background-color: #111; /* Dark background */
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 42px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.menu-sub {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.menu-item {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(245, 166, 35, 0.2);
+}
+
+.menu-item h3 {
+  font-size: 22px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.menu-item .description {
+  font-size: 16px;
+  color: #bbb;
+  margin-bottom: 15px;
+}
+
+.menu-item .price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f5a623;
+}
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: block;
+}
+.about-section {
+  padding: 80px 40px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  color: #ccc;
+}
+.gallery-section {
+  padding: 80px 40px;
+  background-color: #000;
+  text-align: center;
+}
+
+.gallery-section h2 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.5);
+  transition: 0.4s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+.reservation-section {
+  padding: 80px 40px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.reservation-section h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.reservation-form {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+
+.reservation-form input {
+  padding: 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.reservation-form input::placeholder {
+  color: #888;
+}
+
+.reservation-form button {
+  padding: 15px;
+  background-color: #f5a623;
+  color: #111;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.reservation-form button:hover {
+  background-color: #fff;
+  color: #111;
+}
+.footer {
+  background-color: #000;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content h3 {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.footer-content .socials {
+  margin-bottom: 20px;
+}
+
+.footer-content .socials a {
+  color: #f5a623;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-content .socials a:hover {
+  color: #fff;
+}
+
+.footer-content .copyright {
+  color: #555;
+  font-size: 14px;
+}
+/* Navbar */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  z-index: 999;
+}
+
+.logo {
+  color: #f5a623;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f5a623;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: 80px;
+    flex-direction: column;
+    background-color: #111;
+    width: 220px;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 12px 0 0 12px;
+    transition: right 0.4s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Push page down below navbar */
+body {
+  padding-top: 100px;
+}
